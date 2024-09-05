@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/rm_existing_files.sh
       timeout: 300
       runas: root
